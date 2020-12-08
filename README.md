@@ -1,4 +1,4 @@
-# El ahocardo en Python
+# El ahorcado en Python
 Una manera simple del juego del ahorcado escrito en python!
 
 ### Requisitos
