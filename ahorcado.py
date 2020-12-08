@@ -5,7 +5,7 @@ import os
 from random import choice
 palabras=(choice(["hola","disco","teclado","corazon","amor","pizza","espejo","libreta","usb","memoria","avion","cristina","gato","perro","pollo","dani","oso","programacion","atun","gustavo","guitara","libro","fisica","matematicas","cesar","kilos","chamfles","tequila","vino","vodka","cerveza","chocomil","calculadora","celular","bateria","piano","computadora","cama","abuela","palo"]))
 letra1=palabras
-#El Desmadre que seleciona la palabra
+#Seleciona la letra de la palabra
 indice=rd.randint(0,len(letra1)-1)
 letra=letra1[indice]
 PrimeraLetra=len(letra1[:indice])
@@ -16,7 +16,7 @@ pista=(PrimeraLetra*" _ ") + letra + (Ultima*" _ ")
 print(palabras) ##Solo es como prueba
 
 #Pantalla de inicio
-os.system ("clear")
+os.system ("clsr")
 print('''
       +---+
       |   |
@@ -34,7 +34,7 @@ intentos = 0
 res = input("Introduzca la palabra: ")
 
 while intentos < 20:
-    os.system ("clear")#Limpia la pantalla por cada intento
+    os.system ("cls")#Limpia la pantalla por cada intento
     #Dubuja al ahorcado dependiendo del numero de intentos
     if intentos <= 4:
         print('''
@@ -96,7 +96,7 @@ if res == palabras:
 
 if res != palabras or intentos == 20:
     #Cuando pierdes te sale el ¡¡Ahorcado!!
-    os.system("clear")
+    os.system("cls")
     print("\n¡Ahorcado!\n")
     print('''
       +---+
