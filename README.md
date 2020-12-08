@@ -1,5 +1,5 @@
 # El ahocardo en Python
-El juego del ahorcado en python
+Una manera simple del juego del ahorcado escrito en python!
 
 ### Requisitos
-- Python 3.8.5 o superiro
+- Python 3.8.5 o superior
